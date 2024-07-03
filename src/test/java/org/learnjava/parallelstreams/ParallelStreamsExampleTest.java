@@ -3,7 +3,6 @@ package org.learnjava.parallelstreams;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
-import org.learnjava.util.CommonUtil;
 import org.learnjava.util.DataSet;
 
 import java.util.List;
@@ -49,8 +48,4 @@ class ParallelStreamsExampleTest {
             assertTrue(name.contains("-"));
         });
     }
-
-
-
-
 }
